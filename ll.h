@@ -164,7 +164,7 @@ void printlistR(LLPtr currentPtr)
       printf("%d %s -->",currentPtr->id, currentPtr->name);
       currentPtr = currentPtr->pPtr;
    }
-   puts("NULL");
+   printf("NULL");
 }
 }
 
