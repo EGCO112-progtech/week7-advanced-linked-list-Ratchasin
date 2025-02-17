@@ -22,7 +22,7 @@ int main( void )
 
       switch ( choice ) { 
          case 1:
-            printf( "%s", "Enter id and name: \n" );
+            printf( "%s", "Enter id and name: " );
             scanf( "%d %s", &item, name );
             insert( &startPtr, item, name ); // insert item in list
             printList( startPtr );
@@ -31,7 +31,7 @@ int main( void )
          case 2: // delete an element
             // if list is not empty
             if ( !isEmpty( startPtr ) ) { 
-               printf( "%s", "Enter number to be deleted: \n" );
+               printf( "%s", "Enter number to be deleted: " );
                scanf( "%d", &item );
 
                // if character is found, remove it

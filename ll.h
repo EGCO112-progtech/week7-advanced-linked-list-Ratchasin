@@ -141,7 +141,7 @@ void printList( LLPtr currentPtr )
 
       // while not the end of the list
       while ( currentPtr!= NULL ) {
-         printf("%d %s --> ", currentPtr->id,currentPtr->name);
+         printf("%d %s -->", currentPtr->id,currentPtr->name);
          currentPtr = currentPtr->nextPtr;
       } // end while
 
@@ -161,7 +161,7 @@ void printlistR(LLPtr currentPtr)
    }
    while(currentPtr != NULL)
    {
-      printf("%d %s --> ",currentPtr->id, currentPtr->name);
+      printf("%d %s -->",currentPtr->id, currentPtr->name);
       currentPtr = currentPtr->pPtr;
    }
    puts("NULL");
